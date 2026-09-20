@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Portrait placeholder for Wan Muhammad Irman">
+  <rect width="400" height="400" fill="#101B24"/>
+  <g stroke="#F8F6F1" stroke-width="1" opacity="0.16">
+    <line x1="0" y1="0" x2="133" y2="0"/><line x1="133" y1="0" x2="267" y2="0"/><line x1="267" y1="0" x2="400" y2="0"/>
+    <line x1="0" y1="133" x2="140" y2="150"/><line x1="140" y1="150" x2="260" y2="120"/><line x1="260" y1="120" x2="400" y2="140"/>
+    <line x1="0" y1="267" x2="150" y2="280"/><line x1="150" y1="280" x2="270" y2="250"/><line x1="270" y1="250" x2="400" y2="260"/>
+    <line x1="0" y1="400" x2="133" y2="400"/><line x1="133" y1="400" x2="267" y2="400"/><line x1="267" y1="400" x2="400" y2="400"/>
+    <line x1="0" y1="0" x2="0" y2="133"/><line x1="0" y1="0" x2="140" y2="150"/><line x1="133" y1="0" x2="140" y2="150"/>
+    <line x1="133" y1="0" x2="260" y2="120"/><line x1="267" y1="0" x2="260" y2="120"/><line x1="267" y1="0" x2="400" y2="140"/>
+    <line x1="400" y1="0" x2="400" y2="140"/>
+    <line x1="0" y1="133" x2="0" y2="267"/><line x1="0" y1="133" x2="150" y2="280"/><line x1="140" y1="150" x2="150" y2="280"/>
+    <line x1="140" y1="150" x2="270" y2="250"/><line x1="260" y1="120" x2="270" y2="250"/><line x1="260" y1="120" x2="400" y2="260"/>
+    <line x1="400" y1="140" x2="400" y2="260"/>
+    <line x1="0" y1="267" x2="0" y2="400"/><line x1="0" y1="267" x2="133" y2="400"/><line x1="150" y1="280" x2="133" y2="400"/>
+    <line x1="150" y1="280" x2="267" y2="400"/><line x1="270" y1="250" x2="267" y2="400"/><line x1="270" y1="250" x2="400" y2="400"/>
+    <line x1="400" y1="260" x2="400" y2="400"/>
+  </g>
+  <polygon points="267,0 400,0 400,140 260,120" fill="#2F8F82" opacity="0.9"/>
+  <polygon points="0,267 150,280 133,400 0,400" fill="#D9822B" opacity="0.85"/>
+  <polygon points="0,133 140,150 150,280 0,267" fill="#2F8F82" opacity="0.16"/>
+  <g stroke="#F8F6F1" stroke-width="1.4" opacity="0.55">
+    <path d="M18,30 h16 M26,22 v16"/>
+    <path d="M382,30 h-16 M374,22 v16"/>
+    <path d="M18,370 h16 M26,362 v16"/>
+    <path d="M382,370 h-16 M374,362 v16"/>
+  </g>
+  <rect x="14" y="14" width="372" height="372" fill="none" stroke="#F8F6F1" stroke-width="1" opacity="0.22"/>
+  <text x="200" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="128" letter-spacing="2" fill="#F8F6F1">WI</text>
+</svg>
