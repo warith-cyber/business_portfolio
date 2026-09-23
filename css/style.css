@@ -884,12 +884,24 @@ body.nav-open .nav-toggle .icon-close {
   height: 36px;
   padding: 0 10px;
   border-radius: var(--radius-pill);
-  border: 1px solid var(--accent-soft);
+  border: 1px solid var(--paper-line);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--accent-dark);
+  color: var(--text-muted);
   transition: all 0.2s var(--ease);
+}
+
+.team-links a.social-github {
+  color: #181717;
+}
+
+.team-links a.social-linkedin {
+  color: #0a66c2;
+}
+
+.team-links a.social-whatsapp {
+  color: #25d366;
 }
 
 .team-links a:hover {
