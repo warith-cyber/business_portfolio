@@ -932,10 +932,13 @@ body.nav-open .nav-toggle .icon-close {
   padding: 36px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .featured-tag {
   display: inline-flex;
+  align-self: flex-start;
   align-items: center;
   gap: 8px;
   font-family: var(--font-mono);
@@ -997,7 +1000,9 @@ body.nav-open .nav-toggle .icon-close {
 }
 
 .featured-link {
-  margin-top: 22px;
+  margin-top: auto;
+  align-self: flex-start;
+  padding-top: 22px;
 }
 
 .featured-link .icon {
@@ -1055,6 +1060,8 @@ body.nav-open .nav-toggle .icon-close {
 .project-card {
   border-top: 2px solid var(--paper-line);
   padding-top: 22px;
+  display: flex;
+  flex-direction: column;
   transition: border-color 0.3s var(--ease);
 }
 
@@ -1103,9 +1110,11 @@ body.nav-open .nav-toggle .icon-close {
 
 .project-link {
   display: inline-flex;
+  align-self: flex-start;
   align-items: center;
   gap: 6px;
-  margin-top: 16px;
+  margin-top: auto;
+  padding-top: 16px;
   font-size: 13px;
   font-weight: 600;
   color: var(--accent-dark);
