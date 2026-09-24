@@ -1,5 +1,5 @@
 /* ==========================================================================
-   DATUM — Geospatial & Web Studio
+   WWM — World Wide Map Service
    Design tokens
    ========================================================================== */
 :root {
@@ -341,32 +341,33 @@ p.coords {
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 11px;
   margin-right: auto;
   color: var(--text-on-ink);
 }
 
 .brand-mark {
-  width: 34px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
   flex-shrink: 0;
 }
 
-.brand-word {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 21px;
-  letter-spacing: 0.01em;
+.brand-wordmark {
+  height: 19px;
+  width: auto;
+  flex-shrink: 0;
 }
 
-.brand-tag {
-  display: none;
+.brand-sub {
   font-family: var(--font-mono);
-  font-size: 10.5px;
+  font-size: 8.5px;
+  line-height: 1.4;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
   color: var(--text-on-ink-muted);
-  letter-spacing: 0.08em;
-  padding-left: 10px;
+  padding-left: 12px;
   border-left: 1px solid var(--line-dark);
+  white-space: nowrap;
 }
 
 .nav-links {
@@ -1388,14 +1389,12 @@ body.nav-open .nav-toggle .icon-close {
 }
 
 .footer-brand .brand-mark {
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
 }
 
-.footer-brand span {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 19px;
+.footer-brand .brand-wordmark {
+  height: 16px;
 }
 
 .footer-col p {
@@ -1493,7 +1492,7 @@ body.nav-open .nav-toggle .icon-close {
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 960px) {
   .nav-links {
     position: fixed;
     top: var(--nav-h);
@@ -1573,13 +1572,22 @@ body.nav-open .nav-toggle .icon-close {
   .footer-top {
     grid-template-columns: 1fr;
   }
-  .brand-tag {
-    display: none !important;
+}
+
+@media (max-width: 380px) {
+  .brand-sub {
+    display: none;
   }
 }
 
-@media (min-width: 861px) {
+@media (min-width: 961px) {
   .nav-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+  .brand-sub {
     display: none;
   }
 }

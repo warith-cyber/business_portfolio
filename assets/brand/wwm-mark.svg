@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="256" height="256" role="img" aria-label="WWM mark">
+  <title>WWM — World Wide Map Service</title>
+  
+    <path fill="#2563EB" d="M2.93,24.61L16,43.4L32,24.4L48,43.4L61.07,24.61A30 30 0 0 0 2.93,24.61Z"/><path fill="#2563EB" d="M2.04,30.53L16,50.6L32,31.6L48,50.6L61.96,30.53A30 30 0 1 1 2.04,30.53Z"/>
+    <clipPath id="wwm-mark-g"><path d="M2.93,24.61L16,43.4L32,24.4L48,43.4L61.07,24.61A30 30 0 0 0 2.93,24.61Z"/><path d="M2.04,30.53L16,50.6L32,31.6L48,50.6L61.96,30.53A30 30 0 1 1 2.04,30.53Z"/></clipPath>
+    <g clip-path="url(#wwm-mark-g)" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="1.2"><ellipse cx="32" cy="32" rx="12" ry="30"/><ellipse cx="32" cy="32" rx="23" ry="30"/></g>
+    <circle cx="32" cy="28" r="4.6" fill="#D9822B"/>
+  
+</svg>

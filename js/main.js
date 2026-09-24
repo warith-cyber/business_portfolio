@@ -8,7 +8,7 @@
   var baseTitle = document.title.split(" — ")[0];
 
   var sectionTitles = {
-    home: "Geospatial & Web Development Studio",
+    home: "World Wide Map Service",
     about: "About",
     services: "Services",
     team: "Team",
