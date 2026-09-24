@@ -9,10 +9,12 @@
   --paper: #f7f8fa;
   --paper-dim: #eef1f6;
   --paper-line: #dfe4ed;
-  --accent: #2563eb;
-  --accent-dark: #1d4ed8;
-  --accent-light: #60a5fa;
-  --accent-soft: #dbeafe;
+  --accent: #047857;
+  --accent-dark: #065f46;
+  --accent-light: #34d399;
+  --accent-mint: #6ee7b7;
+  --accent-soft: #d1fae5;
+  --on-accent: #052e22;
   --text-dark: #0f172a;
   --text-muted: #56617a;
   --text-on-ink: #f7f8fa;
@@ -283,6 +285,17 @@ p.coords {
 .btn-primary:hover {
   background: var(--accent-dark);
   transform: translateY(-2px);
+}
+
+.section-on-ink .btn-primary,
+.site-header .btn-primary {
+  background: var(--accent-light);
+  color: var(--on-accent);
+}
+
+.section-on-ink .btn-primary:hover,
+.site-header .btn-primary:hover {
+  background: var(--accent-mint);
 }
 
 .btn-outline {
@@ -979,7 +992,7 @@ body.nav-open .nav-toggle .icon-close {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent-light);
-  background: rgba(96, 165, 250, 0.14);
+  background: rgba(52, 211, 153, 0.14);
   padding: 7px 12px;
   border-radius: var(--radius-pill);
   margin-bottom: 22px;
