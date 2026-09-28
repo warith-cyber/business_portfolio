@@ -1466,6 +1466,18 @@ body.nav-open .nav-toggle .icon-close {
   background: rgba(247, 248, 250, 0.08);
 }
 
+.footer-socials a.social-github-dark {
+  color: var(--text-on-ink);
+}
+
+.footer-socials a.social-linkedin {
+  color: #0a66c2;
+}
+
+.footer-socials a.social-whatsapp {
+  color: #25d366;
+}
+
 .footer-socials a .icon {
   width: 14px;
   height: 14px;
