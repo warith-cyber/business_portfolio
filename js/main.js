@@ -26,6 +26,7 @@
     navLinks.forEach(function (l) {
       l.classList.toggle("is-active", l.dataset.target === id);
     });
+    document.body.setAttribute("data-view", id);
 
     if (opts.scroll !== false) {
       window.scrollTo(0, 0);
